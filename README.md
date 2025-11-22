@@ -76,27 +76,27 @@ pytest
 
 # Why These Libraries & Models?
 - TinyLlama 1.1B (GGUF):
-    Fits the <4B requirement
-    CPU-friendly & fully offline
-    GGUF optimized for llama-cpp
-    Sufficient reasoning for SQL generation
+    *Fits the <4B requirement
+    *CPU-friendly & fully offline
+    *GGUF optimized for llama-cpp
+    *Sufficient reasoning for SQL generation
 
 - llama-cpp-python:
-    Fast CPU inference
-    Works with GGUF
-    Minimal setup, no GPU needed
+    *Fast CPU inference
+    *Works with GGUF
+    *Minimal setup, no GPU needed
 
 - SQLite
-    Safe validation using EXPLAIN
-    No risk of executing harmful SQL
-    Lightweight and portable
+    *Safe validation using EXPLAIN
+    *No risk of executing harmful SQL
+    *Lightweight and portable
 
 - sqlparse
-    Cleans LLM output
-    Removes code fences, normalizes text
+    *Cleans LLM output
+    *Removes code fences, normalizes text
 
 - pytest
-    Ensures correctness of validation, cleaning, and repair logic
+    *Ensures correctness of validation, cleaning, and repair logic
 
 # Demo Evidence
     A folder /demo/ includes screenshots showing:
