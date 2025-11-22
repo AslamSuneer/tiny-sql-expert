@@ -28,7 +28,7 @@ This project converts natural-language SQL questions into valid SQL statements u
 - `requirements.txt` — runtime deps
 - `requirements-dev.txt` — dev deps (black/flake8/pre-commit/pytest)
 - `.pre-commit-config.yaml` — formatting & lint hooks
-- `demo/` — screenshots or video of the pipeline
+- `demo/` — screenshots
 - `logs/` — JSONL logs (created during runs)
 
 ---
