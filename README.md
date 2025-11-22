@@ -86,16 +86,16 @@ pytest
     Works with GGUF,
     Minimal setup, no GPU needed,
 
-- SQLite
+- SQLite:
     Safe validation using EXPLAIN,
     No risk of executing harmful SQL,
     Lightweight and portable,
 
-- sqlparse
+- sqlparse:
     Cleans LLM output,
     Removes code fences, normalizes text
 
-- pytest
+- pytest:
     Ensures correctness of validation, cleaning, and repair logic
 
 # Demo Evidence
